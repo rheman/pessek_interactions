@@ -1,6 +1,6 @@
 {
 	"name": "pessek/pessek_interactions",
-	"version": "4.0",
+	"version": "4.1",
 	"type": "elgg-plugin",
 	"description": "Real time likes and comments",
 	"keywords": [
@@ -16,7 +16,6 @@
 	"extra": {
 		"installer-name": "pessek_interactions"
 	},
-	"require": {
 	"require": {
 		"php": ">=7.4",
 		"composer/installers": "^1.0.8"

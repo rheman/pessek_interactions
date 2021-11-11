@@ -2,7 +2,7 @@
 
 return [
         'plugin' => [
-                'version' => '4.0',
+                'version' => '4.1',
 		'name' => 'Pessek Interactions',
                 'dependencies' => [
                         'pessek_stash' => [],
