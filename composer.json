@@ -1,0 +1,38 @@
+{
+	"name": "pessek/pessek_interactions",
+	"version": "4.0",
+	"type": "elgg-plugin",
+	"description": "Real time likes and comments",
+	"keywords": [
+		"elgg", "plugin", "comments", "likes", "stream", "feed", "ajax"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "pessek_interactions"
+	},
+	"require": {
+	"require": {
+		"php": ">=7.4",
+		"composer/installers": "^1.0.8"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
+}
